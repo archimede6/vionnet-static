@@ -30,3 +30,8 @@ img{
 
 
 
+@media screen and (max-width: 480px) {
+    .img-wrapper {
+        margin-bottom: 4em;
+    }
+  }
