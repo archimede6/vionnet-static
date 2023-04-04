@@ -20,6 +20,7 @@ main{
 }
 
 .img-wrapper{
+    height: auto;
     width: auto;
 }
 
