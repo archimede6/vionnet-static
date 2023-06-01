@@ -53,9 +53,8 @@ main{
 }
 
 img#vionnetLogo {
-    width: 100%;
+    width: auto;
     height: 100%;
-    top: 10vh;
     transition: 0.2s all linear;
 }
 
