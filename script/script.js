@@ -16,27 +16,27 @@ var contactsWrapper = document.getElementById("contactsWrapper")
 
 
 
-    if (window.innerWidth < 989) {
-        console.log("mobile")
-        imageVionnet.addEventListener("click", function() {
-            imageVionnet.classList.add("hidden")
-            logo.classList.remove("hidden")
-            contactsWrapper.classList.remove("hidden")
-        })
-    } else {
-        console.log("desktop")
-        imageVionnet.addEventListener("mouseover", function() {
-            //console.log("mouseover")
-            imageVionnet.classList.add("hidden")
-            logo.classList.remove("hidden")
-            contactsWrapper.classList.remove("hidden")
-        })
+    // if (window.innerWidth < 989) {
+    //     console.log("mobile")
+    //     imageVionnet.addEventListener("click", function() {
+    //         imageVionnet.classList.add("hidden")
+    //         logo.classList.remove("hidden")
+    //         contactsWrapper.classList.remove("hidden")
+    //     })
+    // } else {
+    //     console.log("desktop")
+    //     imageVionnet.addEventListener("mouseover", function() {
+    //         //console.log("mouseover")
+    //         imageVionnet.classList.add("hidden")
+    //         logo.classList.remove("hidden")
+    //         contactsWrapper.classList.remove("hidden")
+    //     })
 
-        hoverWrapper.addEventListener("mouseleave", function() {
-            //console.log("mouseover")
-            imageVionnet.classList.remove("hidden")
-            logo.classList.add("hidden")
-            contactsWrapper.classList.add("hidden")
-        })
-    }
+    //     hoverWrapper.addEventListener("mouseleave", function() {
+    //         //console.log("mouseover")
+    //         imageVionnet.classList.remove("hidden")
+    //         logo.classList.add("hidden")
+    //         contactsWrapper.classList.add("hidden")
+    //     })
+    // }
 
