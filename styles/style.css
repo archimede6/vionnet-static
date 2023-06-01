@@ -10,6 +10,7 @@ html,body {
     height: 100%;
     height: fill-available;
     height: -webkit-fill-available;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 main{
@@ -18,16 +19,74 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+
+.hover-wrapper {
+
 }
 
 .img-wrapper{
     height: 30vh;
+    margin-bottom: 30px;
+    position: relative;
 }
 
-img{
+
+.img-wrapper img{
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.logo-wrapper {
+    height: 30vh;
+    margin-bottom: 30px;
+    transition: 0.2s all linear;
+}
+
+.logo-wrapper img {
     height: 100%;
     object-fit: cover;
 }
+
+img#vionnetLogo {
+    width: 100%;
+    height: auto;
+    top: 10vh;
+    transition: 0.2s all linear;
+}
+
+img#vionnetImages {
+    left: 7%;
+    transition: 0.2s all linear;
+}
+
+
+
+.contacts-wrapper {
+    transition: 0.2s all linear;
+}
+
+.contacts-wrapper a {
+    text-decoration: none;
+    color: black;
+}
+
+/* .contacts-wrapper a:hover {
+    font-weight: bold;
+} */
+
+.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+
 
 
 
